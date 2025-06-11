@@ -1,0 +1,48 @@
+// Blog data for blog listing and detail pages
+export const blogs = [
+  {
+    id: 'all-and-only',
+    title: '🧠 The "All & Only" Idea for Prompt Contexts',
+    description: 'In the world of AI prompting, context is everything. The better the prompt context, the more intelligent and relevant the response. But what exactly should be in that context? Enter the "All & Only" idea—a simple yet powerful mental model to refine prompt design.',
+    cardImage: '/assets/blog/b1a.png',
+    images: ['/assets/blog/b1a.png', '/assets/blog/b1b.png'],
+    secondImageAfterParagraph: 1,
+    content: `What is "All & Only"?\nAll: Include all the necessary information the AI needs to give a complete answer.\n\nOnly: Include only the information that is relevant to the task.\n\nThink of it as optimizing for clarity without clutter.\n\nWhy It Matters\nMost prompt failures happen because the input is either too vague or too bloated. Providing incomplete data leads to hallucination or gaps in logic, while providing irrelevant context introduces noise that derails the output.\n\nLet's say you're building a prompt for generating summaries of legal documents. Using the "All & Only" principle:\n\n✅ All: Case type, key legal points, ruling.\n\n❌ Only: Don't include unrelated law firm bios or document formatting metadata.\n\nReal-world Example\nImagine you're building an AI assistant for a support team:\n\nBad prompt: "Here's everything about the user, server logs, chat history, and backend configs. What's the issue?"\n\nGood prompt: "User reported issue X at time Y. Chat logs show error Z. Backend logs confirm 500 error. Diagnose."\n\nThe second version follows the "All & Only" principle—giving all that matters and nothing more.\n\nTips to Apply "All & Only"\nPreprocess data: Extract key info beforehand.\n\nChunk and tag: Use sections with headers if your prompt needs structure.\n\nUse instructions: Clearly direct the model to focus on specific areas.\n\nIn short, the "All & Only" idea helps you craft lean, purpose-driven prompts that deliver sharp results.`,
+  },
+  {
+    id: 'readme-value',
+    title: '📘 The Real Value of README Files',
+    description: "For many developers, a README.md is an afterthought—something tacked on last-minute just to fill the repo. But that's a major missed opportunity. A good README file is more than a formality. It's the first handshake between your project and its potential users, contributors, or even investors.",
+    cardImage: '/assets/blog/b2a.jpg',
+    images: ['/assets/blog/b2a.jpg', '/assets/blog/b2b.png'],
+    secondImageAfterParagraph: 1, 
+    content: `So, what does a great README do?\nClarifies Purpose: It explains what the project does, who it's for, and why it exists.\n\nBuilds Trust: Clean, thoughtful documentation signals that the code is reliable and maintained.\n\nSaves Time: It eliminates confusion by walking the reader through setup, usage, and troubleshooting.\n\nBoosts Contributions: Developers are more likely to contribute if they understand the structure, dependencies, and how to run tests.\n\nAnatomy of a High-Value README\nTitle & Project Description\nWhat does this do? Why was it built?\n\nInstallation Instructions\nStep-by-step guide to getting started locally.\n\nUsage Examples\nShow how to use the tool with real examples.\n\nFolder Structure (if applicable)\nMake navigation easy for newcomers.\n\nContributing Guidelines\nTell others how they can help you build better.\n\nLicense & Credits\nKeep it open, legal, and give credit where due.\n\nA README is Your Project's Resume\nWhether you're job hunting, building open-source, or launching a startup, your README reflects your clarity of thought and care for users. A great one can turn curiosity into adoption—and adoption into impact.`,
+  },
+  {
+    id: 'all-and-only',
+    title: '🧠 The "All & Only" Idea for Prompt Contexts',
+    description: 'In the world of AI prompting, context is everything. The better the prompt context, the more intelligent and relevant the response. But what exactly should be in that context? Enter the "All & Only" idea—a simple yet powerful mental model to refine prompt design.',
+    cardImage: '/assets/blog/b1a.png',
+    images: ['/assets/blog/b1a.png', '/assets/blog/b1b.png'],
+    secondImageAfterParagraph: 1,
+    content: `What is "All & Only"?\nAll: Include all the necessary information the AI needs to give a complete answer.\n\nOnly: Include only the information that is relevant to the task.\n\nThink of it as optimizing for clarity without clutter.\n\nWhy It Matters\nMost prompt failures happen because the input is either too vague or too bloated. Providing incomplete data leads to hallucination or gaps in logic, while providing irrelevant context introduces noise that derails the output.\n\nLet's say you're building a prompt for generating summaries of legal documents. Using the "All & Only" principle:\n\n✅ All: Case type, key legal points, ruling.\n\n❌ Only: Don't include unrelated law firm bios or document formatting metadata.\n\nReal-world Example\nImagine you're building an AI assistant for a support team:\n\nBad prompt: "Here's everything about the user, server logs, chat history, and backend configs. What's the issue?"\n\nGood prompt: "User reported issue X at time Y. Chat logs show error Z. Backend logs confirm 500 error. Diagnose."\n\nThe second version follows the "All & Only" principle—giving all that matters and nothing more.\n\nTips to Apply "All & Only"\nPreprocess data: Extract key info beforehand.\n\nChunk and tag: Use sections with headers if your prompt needs structure.\n\nUse instructions: Clearly direct the model to focus on specific areas.\n\nIn short, the "All & Only" idea helps you craft lean, purpose-driven prompts that deliver sharp results.`,
+  },
+  {
+    id: 'readme-value',
+    title: '📘 The Real Value of README Files',
+    description: "For many developers, a README.md is an afterthought—something tacked on last-minute just to fill the repo. But that's a major missed opportunity. A good README file is more than a formality. It's the first handshake between your project and its potential users, contributors, or even investors.",
+    cardImage: '/assets/blog/b2a.jpg',
+    images: ['/assets/blog/b2a.jpg', '/assets/blog/b2b.png'],
+    secondImageAfterParagraph: 1, 
+    content: `So, what does a great README do?\nClarifies Purpose: It explains what the project does, who it's for, and why it exists.\n\nBuilds Trust: Clean, thoughtful documentation signals that the code is reliable and maintained.\n\nSaves Time: It eliminates confusion by walking the reader through setup, usage, and troubleshooting.\n\nBoosts Contributions: Developers are more likely to contribute if they understand the structure, dependencies, and how to run tests.\n\nAnatomy of a High-Value README\nTitle & Project Description\nWhat does this do? Why was it built?\n\nInstallation Instructions\nStep-by-step guide to getting started locally.\n\nUsage Examples\nShow how to use the tool with real examples.\n\nFolder Structure (if applicable)\nMake navigation easy for newcomers.\n\nContributing Guidelines\nTell others how they can help you build better.\n\nLicense & Credits\nKeep it open, legal, and give credit where due.\n\nA README is Your Project's Resume\nWhether you're job hunting, building open-source, or launching a startup, your README reflects your clarity of thought and care for users. A great one can turn curiosity into adoption—and adoption into impact.`,
+  },
+  {
+    id: 'readme-value',
+    title: '📘 The Real Value of README Files',
+    description: "For many developers, a README.md is an afterthought—something tacked on last-minute just to fill the repo. But that's a major missed opportunity. A good README file is more than a formality. It's the first handshake between your project and its potential users, contributors, or even investors.",
+    cardImage: '/assets/blog/b2a.jpg',
+    images: ['/assets/blog/b2a.jpg', '/assets/blog/b2b.png'],
+    secondImageAfterParagraph: 1,
+    content: `So, what does a great README do?\nClarifies Purpose: It explains what the project does, who it's for, and why it exists.\n\nBuilds Trust: Clean, thoughtful documentation signals that the code is reliable and maintained.\n\nSaves Time: It eliminates confusion by walking the reader through setup, usage, and troubleshooting.\n\nBoosts Contributions: Developers are more likely to contribute if they understand the structure, dependencies, and how to run tests.\n\nAnatomy of a High-Value README\nTitle & Project Description\nWhat does this do? Why was it built?\n\nInstallation Instructions\nStep-by-step guide to getting started locally.\n\nUsage Examples\nShow how to use the tool with real examples.\n\nFolder Structure (if applicable)\nMake navigation easy for newcomers.\n\nContributing Guidelines\nTell others how they can help you build better.\n\nLicense & Credits\nKeep it open, legal, and give credit where due.\n\nA README is Your Project's Resume\nWhether you're job hunting, building open-source, or launching a startup, your README reflects your clarity of thought and care for users. A great one can turn curiosity into adoption—and adoption into impact.`,
+  },
+];
