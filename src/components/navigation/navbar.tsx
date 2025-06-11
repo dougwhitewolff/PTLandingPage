@@ -47,7 +47,7 @@ export function Navbar() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2 text-2xl font-light text-primary hover:text-primary/90">
             <Image
-              src="/assets/logo2.png"
+              src="/assets/logo3.png"
               alt="SherpaPrompt Logo"
               width={32}
               height={32}
