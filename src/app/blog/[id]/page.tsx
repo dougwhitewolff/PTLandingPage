@@ -5,8 +5,9 @@ import { blogs } from '@/lib/blog-data';
 import { Navbar } from '@/components/navigation/navbar';
 import { ArrowLeft } from 'lucide-react';
 
-export default function BlogDetailPage({ params }: { params: { id: string } }) {
-  const blog = blogs.find((b) => b.id === params.id);
+export default async function BlogDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const blog = blogs.find((b) => b.id === id);
   if (!blog) return notFound();
 
   // Split content into paragraphs and remove empty strings
